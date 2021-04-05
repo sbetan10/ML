@@ -1,0 +1,18 @@
+#################### API ####################
+### Obtiene un listado de productos por palabra clave
+GET http://localhost:9000/api/items?q=iphone
+### Obtiene un producto por su ID
+GET http://localhost:9000/api/items/MLA837524119
+### Obtiene la descripción del producto por su ID
+GET http://localhost:9000/api/items/MLA804207882/description
+### Obtiene la categoria del producto por su ID
+GET http://localhost:9000/api/items/categories/MLA1055
+
+
+#################### API MERCADO LIBRE ####################
+### Obtiene un listado de productos por palabra clave
+GET https://api.mercadolibre.com/sites/MLA/search?q=iphone
+### Obtiene un producto por su ID
+GET https://api.mercadolibre.com/items/MLA837524119
+### Obtiene la descripción del producto por su ID
+GET https://api.mercadolibre.com/items/MLA837524119/description
