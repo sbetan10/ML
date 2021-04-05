@@ -1,0 +1,21 @@
+html {
+  body {
+    margin: 0;
+    font-family: $font;
+    color: $primary;
+    background-color: #eeeeee;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    .grid_container {
+      display: grid;
+      grid:
+        "header" 58px
+        "main" 1fr /
+        100%;
+    }
+    .main {
+      grid-area: main;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.search {
+  grid-area: search;
+
+  & > form {
+    display: flex;
+  
+    & > input {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      font-size: 18px;
+      color: #333333;
+  
+      ::placeholder {
+        color: #999999;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  
+    & > button {
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+  
+      ::hover {
+        background: #0b7dda;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  
+}
